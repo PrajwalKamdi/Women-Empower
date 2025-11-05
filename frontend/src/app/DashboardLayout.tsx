@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import DashboardNavbar from "@/app/component/ui/utlity/DashboardNavbar";
+import DashboardNavbar from "./component/ui/utlity/DashboardNavbar";
 import DashboardSidebar from "./component/ui/utlity/DashboardSidebar";
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useAuth } from "./contexts/AuthContext";
 
 interface DashboardLayoutProps {
   children: React.ReactNode;

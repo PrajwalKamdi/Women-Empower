@@ -1,7 +1,6 @@
-import React from 'react'
-import AboutSection from '../component/product/AboutSection'
-import ReviewContainer from '../component/product/ReviewContainer'
-
+import React from "react";
+import AboutSection from "../component/product/AboutSection";
+import ReviewContainer from "../component/product/ReviewContainer";
 
 export default function page() {
   return (
@@ -9,6 +8,5 @@ export default function page() {
       <AboutSection />
       <ReviewContainer />
     </div>
-  )
+  );
 }
-

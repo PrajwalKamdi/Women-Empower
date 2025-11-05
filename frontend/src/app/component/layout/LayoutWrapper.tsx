@@ -1,6 +1,6 @@
 "use client";
 
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useAuth } from "../../contexts/AuthContext";
 import NavBar from "../ui/utlity/NavBar";
 import Footer from "../ui/utlity/Footer";
 import ScrollToTopButton from "../ui/utlity/ScrollToTopButton";
