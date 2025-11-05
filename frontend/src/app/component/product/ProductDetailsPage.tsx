@@ -3,10 +3,10 @@ import React, { useState, useEffect } from "react";
 import { Heart, Star, Plus, Minus, ShoppingCart } from "lucide-react";
 import { productService } from "@/app/lib/productapi";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 import { Product } from "@/app/types/product";
-import { useCart } from "@/app/contexts/CartContext";
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useCart } from "../../contexts/CartContext";
+import { useAuth } from "../../contexts/AuthContext";
 import { useWishlist } from "@/app/contexts/WishlistContext";
 import { getCategoryDetailsApi, getArtistDetailsApi } from "@/app/lib/api";
 

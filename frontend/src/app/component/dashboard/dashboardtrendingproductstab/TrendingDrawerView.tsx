@@ -4,7 +4,7 @@ import React from "react";
 import { ChevronLeft, ChevronRight, Star, TrendingUp } from "lucide-react";
 import { TrendingProduct } from "@/app/types/dashboardtrendingtab";
 import { calculateDiscountedPrice, getAllImages } from "@/app/lib/utils/dashboardtrending-utils";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../../data/dashboardproductdata";
 import R2Image from "../dashboardallproductstab/R2Image";
 interface TrendingDrawerViewProps {
   selectedProduct: TrendingProduct | null;

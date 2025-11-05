@@ -3,8 +3,8 @@
 import React, { useState, useRef } from "react";
 import { Product } from "@/app/types/product";
 import { ProductCard } from "./ProductCard";
-import { useCart } from "@/app/contexts/CartContext";
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useCart } from "../../contexts/CartContext";
+import { useAuth } from "../../contexts/AuthContext";
 import { useWishlist } from "@/app/contexts/WishlistContext";
 
 interface BestSellersClientProps {

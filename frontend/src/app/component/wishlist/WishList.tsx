@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { WishListItem } from "@/app/types/wishlist";
 import { WishListClient } from "./WishListClient";
 import { useWishlist } from "@/app/contexts/WishlistContext";
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useAuth } from "../../contexts/AuthContext";
 
 interface WishListProps {
   userId?: string;

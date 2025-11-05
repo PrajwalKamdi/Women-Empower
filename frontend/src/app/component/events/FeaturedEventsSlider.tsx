@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Calendar } from "lucide-react";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 
 interface Event {
   id: string;

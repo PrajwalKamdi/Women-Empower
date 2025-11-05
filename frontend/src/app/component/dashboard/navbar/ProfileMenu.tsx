@@ -2,7 +2,7 @@
 "use client";
 import React, { useState } from "react";
 import { User, LogOut, ChevronDown } from "lucide-react";
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useAuth } from "../../../contexts/AuthContext";
 import { useRouter } from "next/navigation";
 
 interface UserInfo {

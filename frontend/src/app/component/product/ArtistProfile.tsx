@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { getArtistDetailsApi, getCategoryDetailsApi } from "../../lib/api";
 import { Artist } from "../../types/artist";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 
 interface ArtistProfileProps {
   artistId: string;

@@ -5,7 +5,7 @@ import { MoreVertical, Eye, Edit2, Trash2, Tag } from "lucide-react";
 import { Course } from "@/app/types/dashboardcoursetab";
 import { calculateDiscountedPrice } from "@/app/lib/utils/dashboardcourse-utils";
 import R2Image from "../dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../../data/dashboardproductdata";
 
 interface CourseCardProps {
   course: Course;

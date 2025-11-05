@@ -2,11 +2,11 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import { Heart, ShoppingCart, Check } from "lucide-react";
-import { useCart } from "@/app/contexts/CartContext";
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useCart } from "../../contexts/CartContext";
+import { useAuth } from "../../contexts/AuthContext";
 import { productService } from "@/app/lib/productapi";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 
 // Product Interface - Updated to match your data structure
 export interface Product {

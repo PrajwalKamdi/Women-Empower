@@ -3,7 +3,7 @@
 import React from "react";
 import { Category } from "@/app/types/category";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 
 interface CategoryCardProps {
   category: Category;

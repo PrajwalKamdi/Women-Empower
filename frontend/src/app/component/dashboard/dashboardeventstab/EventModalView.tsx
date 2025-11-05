@@ -2,7 +2,7 @@
 import React from 'react';
 import { getStatusColor, formatEventDateTimeFull } from '@/app/lib/utils/dashboardevent-utils';
 import R2Image from "../dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../../data/dashboardproductdata";
 import type { Event } from '@/app/types/dashboardeventtab';
 
 interface EventModalViewProps {

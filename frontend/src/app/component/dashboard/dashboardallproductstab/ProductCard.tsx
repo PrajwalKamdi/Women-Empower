@@ -4,7 +4,7 @@ import React from "react";
 import { Star, TrendingUp, MoreVertical, Eye, Edit, Trash2, Tag } from "lucide-react";
 import { Product, DrawerMode } from "@/app/types/dashboardproduct";
 import { calculateDiscountedPrice } from "@/app/lib/utils/dashboardproduct-utils";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../../data/dashboardproductdata";
 import R2Image from "./R2Image";
 
 interface ProductCardProps {

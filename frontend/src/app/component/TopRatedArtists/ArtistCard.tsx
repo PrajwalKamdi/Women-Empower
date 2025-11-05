@@ -5,7 +5,7 @@ import { Briefcase, Calendar } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { Artist } from "@/app/types/artist";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 
 interface ArtistCardProps {
   artist: Artist;

@@ -8,12 +8,12 @@ import {
 import { Heart, ShoppingCart } from "lucide-react";
 import "@/app/globals.css";
 import { getArtistProducts, ArtistProduct } from "@/app/lib/artistApi";
-import { useCart } from "@/app/contexts/CartContext";
+import { useCart } from "../../contexts/CartContext";
 import { useWishlist } from "@/app/contexts/WishlistContext";
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useAuth } from "../../contexts/AuthContext";
 import { useRouter } from "next/navigation";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 
 interface ArtworkItem {
   p_Name: string;

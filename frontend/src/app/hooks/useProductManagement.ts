@@ -2,7 +2,7 @@
 'use client';
 import { useState, useCallback } from "react";
 import { Product, ProductFormData, DrawerMode } from "@/app/types/dashboardproduct";
-import { INITIAL_FORM_DATA, DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { INITIAL_FORM_DATA, DEFAULT_THUMBNAIL } from "../data/dashboardproductdata";
 import { productService } from "@/app/lib/productapi";
 
 export const useProductManagement = (initialProducts: Product[]) => {

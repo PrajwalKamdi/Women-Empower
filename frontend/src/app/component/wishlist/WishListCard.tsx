@@ -4,7 +4,7 @@ import React from "react";
 import { Heart, Check, Sparkles } from "lucide-react";
 import { WishListItem } from "@/app/types/wishlist";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 
 interface WishListCardProps {
   item: WishListItem;

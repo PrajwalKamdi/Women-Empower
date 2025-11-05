@@ -5,7 +5,7 @@ import { Play, BookOpen } from 'lucide-react';
 import { Course } from '@/app/types/course';
 import { useCategoryDetails } from "../../hooks/useCategoryDetails";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
-import { DEFAULT_THUMBNAIL } from "@/app/data/dashboardproductdata";
+import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 
 interface CourseCardProps {
   course: Course;

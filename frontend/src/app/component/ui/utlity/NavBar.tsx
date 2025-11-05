@@ -13,8 +13,8 @@ import {
 import CartDrawer from "../modals/CartDrawer";
 import { usePathname, useRouter } from "next/navigation";
 import ProfilePopUp from "../modals/ProfilePopUp";
-import { useCart } from "@/app/contexts/CartContext";
-import { useAuth } from "@/app/contexts/AuthContext";
+import { useCart } from "../../../contexts/CartContext";
+import { useAuth } from "../../../contexts/AuthContext";
 import { useWishlist } from "@/app/contexts/WishlistContext";
 
 // Remove local CartItem interface since we're using CartContext
