@@ -7,7 +7,7 @@ import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";
 import { Product } from "@/app/types/product";
 import { useCart } from "../../contexts/CartContext";
 import { useAuth } from "../../contexts/AuthContext";
-import { useWishlist } from "@/app/contexts/WishlistContext";
+import { useWishlist } from "../../contexts/WishlistContext";
 import { getCategoryDetailsApi, getArtistDetailsApi } from "@/app/lib/api";
 
 interface ProductDetailsPageProps {

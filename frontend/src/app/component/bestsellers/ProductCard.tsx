@@ -3,7 +3,7 @@
 import React from "react";
 import { Heart, ShoppingCart, Check } from "lucide-react";
 import { Product } from "@/app/types/product";
-import { useWishlist } from "@/app/contexts/WishlistContext";
+import { useWishlist } from "../../contexts/WishlistContext";
 import { useRouter } from "next/navigation";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";
 import { DEFAULT_THUMBNAIL } from "../../data/dashboardproductdata";

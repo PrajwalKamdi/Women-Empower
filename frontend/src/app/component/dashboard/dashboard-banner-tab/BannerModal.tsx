@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import { X, Upload } from 'lucide-react';
-import { Banner, BannerTypeConfig } from "@/app/types/dashboard-banner-tab";
+import { Banner, BannerTypeConfig } from "../../../types/dashboard-banner-tab";
 
 interface Props {
   mode: 'add' | 'edit' | 'preview';

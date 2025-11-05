@@ -1,7 +1,7 @@
 // app/courses/FiltersSidebar.tsx
 "use client";
 import React from "react";
-import "@/app/globals.css";
+import "../../globals.css";
 
 interface Course {
   id: string;

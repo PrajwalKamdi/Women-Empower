@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import { Eye, X, Package, Calendar, CreditCard, User, Phone, MapPin, ShoppingBag, Hash } from 'lucide-react';
-import '@/app/globals.css';
+import '../globals.css';
 
 interface Product {
   productName: string;

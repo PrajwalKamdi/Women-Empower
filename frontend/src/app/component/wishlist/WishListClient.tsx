@@ -6,7 +6,7 @@ import { WishListHeader } from "./WishListHeader";
 import { WishListCard } from "./WishListCard";
 import { WishListEmpty } from "./WishListEmpty";
 import { WishListSkeleton } from "./WishListSkeleton";
-import { useWishlist } from "@/app/contexts/WishlistContext";
+import { useWishlist } from "../../contexts/WishlistContext";
 
 interface WishListClientProps {
   initialItems: WishListItem[];

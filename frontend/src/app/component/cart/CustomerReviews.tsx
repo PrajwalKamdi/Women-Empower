@@ -6,7 +6,7 @@ import StarIcon from "@mui/icons-material/Star";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 
 // ✅ Import reviews data from external file
-import reviewsData from "@/app/data/reviewsData";
+import reviewsData from "../../data/reviewsData";
 
 const CustomerReviews: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(0);

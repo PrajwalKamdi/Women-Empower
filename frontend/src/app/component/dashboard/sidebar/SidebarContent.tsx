@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ChevronDown, X } from "lucide-react";
 import { menuItems } from "@/app/component/dashboard/sidebar/menuItems";
 import { MenuItem } from "@/app/types/dashboardsidebar";
-import "@/app/globals.css";
+import "../../../globals.css";
 import { usePathname } from "next/navigation";
 
 interface SidebarContentProps {

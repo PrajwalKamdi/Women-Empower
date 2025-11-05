@@ -1,7 +1,7 @@
 // components/admin/BannerTypeSelector.tsx
 'use client';
 
-import { Banner, BannerType, BANNER_TYPE_CONFIG } from "@/app/types/dashboard-banner-tab";
+import { Banner, BannerType, BANNER_TYPE_CONFIG } from "../../../types/dashboard-banner-tab";
 
 interface Props {
   selectedType: BannerType;

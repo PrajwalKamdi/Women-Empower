@@ -6,10 +6,10 @@ import {
   Visibility,
 } from "@mui/icons-material";
 import { Heart, ShoppingCart } from "lucide-react";
-import "@/app/globals.css";
+import "../../globals.css";
 import { getArtistProducts, ArtistProduct } from "@/app/lib/artistApi";
 import { useCart } from "../../contexts/CartContext";
-import { useWishlist } from "@/app/contexts/WishlistContext";
+import { useWishlist } from "../../contexts/WishlistContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { useRouter } from "next/navigation";
 import R2Image from "../dashboard/dashboardallproductstab/R2Image";

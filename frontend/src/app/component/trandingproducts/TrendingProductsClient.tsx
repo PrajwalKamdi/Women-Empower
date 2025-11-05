@@ -5,7 +5,7 @@ import { Product } from "@/app/types/product";
 import { ProductCard } from "./ProductCard";
 import { useCart } from "../../contexts/CartContext";
 import { useAuth } from "../../contexts/AuthContext";
-import { useWishlist } from "@/app/contexts/WishlistContext";
+import { useWishlist } from "../../contexts/WishlistContext";
 
 interface TrendingProductsClientProps {
   products: Product[];
