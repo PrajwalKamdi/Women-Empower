@@ -1,7 +1,7 @@
 // components/artist/ArtistModal.tsx
 'use client';
 import { X } from 'lucide-react';
-import { Artist, ModalType, ArtistFormData } from '@/app/types/dashboard-artist-tab';
+import { Artist, ModalType, ArtistFormData } from '../../../types/dashboard-artist-tab';
 import ArtistFormView from './ArtistFormView';
 import ArtistDetailView from './ArtistDetailView';
 interface CategoryOption { id: string; name: string }

@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { MoreVertical, Eye, Edit2, Trash2 } from "lucide-react";
 import { Category } from "@/app/types/dashboardcategory";
-import { getFromR2 } from "@/app/lib/utils/r2Client";
+import { getFromR2 } from "../../../lib/utils/r2Client";
 
 interface CategoryCardProps {
   category: Category;

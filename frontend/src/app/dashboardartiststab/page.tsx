@@ -1,7 +1,7 @@
 // app/artists/page.tsx
 import ArtistManagementClient from '../component/dashboard/dashboardartiststab/ArtistManagementClient';
 import { getArtistsPaginated, getCategoriesApi } from '@/app/lib/api';
-import { buildR2PublicUrl } from '@/app/lib/utils/dashboardartist-utils';
+import { buildR2PublicUrl } from '../lib/utils/dashboardartist-utils';
 
 export default async function ArtistsPage({ searchParams }: { searchParams?: { page?: string } }) {
   const page = Number(searchParams?.page || '1') || 1;

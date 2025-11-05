@@ -1,8 +1,8 @@
 // components/artist/ArtistTable.tsx
 'use client';
 import { MoreVertical, Eye, Edit2, Trash2 } from 'lucide-react';
-import { Artist,ModalType } from '@/app/types/dashboard-artist-tab';
-import { formatDate } from '@/app/lib/utils/dashboardartist-utils';
+import { Artist,ModalType } from '../../../types/dashboard-artist-tab';
+import { formatDate } from '../../../lib/utils/dashboardartist-utils';
 import ArtistAvatar from './ArtistAvatar';
 
 interface ArtistTableProps {

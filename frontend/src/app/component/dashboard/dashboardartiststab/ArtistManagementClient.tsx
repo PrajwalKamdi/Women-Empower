@@ -2,8 +2,8 @@
 'use client';
 import { Plus } from 'lucide-react';
 import Link from 'next/link';
-import { Artist } from '@/app/types/dashboard-artist-tab';
-import { useArtistManager } from '@/app/hooks/useArtistManager';
+import { Artist } from '../../../types/dashboard-artist-tab';
+import { useArtistManager } from '../../../hooks/useArtistManager';
 import ArtistTable from './ArtistTable';
 import ArtistModal from './ArtistModal';
 

@@ -1,6 +1,6 @@
 // components/artist/ArtistDetailView.tsx
-import { Artist } from '@/app/types/dashboard-artist-tab';
-import { formatDateLong } from '@/app/lib/utils/dashboardartist-utils';
+import { Artist } from '../../../types/dashboard-artist-tab';
+import { formatDateLong } from '../../../lib/utils/dashboardartist-utils';
 import ArtistAvatar from './ArtistAvatar';
 
 interface ArtistDetailViewProps {

@@ -1,5 +1,5 @@
 // lib/utils/artist-utils.ts
-import { ArtistFormData } from "@/app/types/dashboard-artist-tab";
+import { ArtistFormData } from "../../types/dashboard-artist-tab";
 
 export function formatDate(dateString: string, locale: string = 'en-IN'): string {
   return new Date(dateString).toLocaleDateString(locale, {

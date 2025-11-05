@@ -11,7 +11,7 @@ import {
 import CategoryCard from "./CategoryCard";
 import CategoryModal from "./CategoryModal";
 import { updateCategory, deleteCategory, createCategory } from "../../../lib/api";
-import { uploadToR2, deleteFromR2 } from "@/app/lib/utils/r2Client";
+import { uploadToR2, deleteFromR2 } from "../../../lib/utils/r2Client";
 
 interface CategoryListProps {
   initialCategories: Category[];

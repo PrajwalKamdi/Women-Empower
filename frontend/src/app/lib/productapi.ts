@@ -1,5 +1,5 @@
 import { Product, ProductFormData } from "@/app/types/dashboardproduct";
-import { buildR2PublicUrl } from "@/app/lib/utils/dashboardartist-utils";
+import { buildR2PublicUrl } from "../lib/utils/dashboardartist-utils";
 
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/v1";

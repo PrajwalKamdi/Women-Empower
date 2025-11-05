@@ -2,8 +2,8 @@
 // components/artist/ArtistAvatar.tsx
 import { useEffect, useMemo, useState } from 'react';
 import { User } from 'lucide-react';
-import { buildR2PublicUrl } from '@/app/lib/utils/dashboardartist-utils';
-import { getFromR2 } from '@/app/lib/utils/r2Client';
+import { buildR2PublicUrl } from '../../../lib/utils/dashboardartist-utils';
+import { getFromR2 } from '../../../lib/utils/r2Client';
 
 interface ArtistAvatarProps {
   image?: string;
