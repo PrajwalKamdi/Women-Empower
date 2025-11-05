@@ -94,6 +94,16 @@ export async function getFromR2(key: string): Promise<string> {
 }
 
 /**
+ * Build a public R2 URL from a stored key using NEXT_PUBLIC_R2_PUBLIC_BASE.
+ * If the base is not configured, fallback to returning the key as-is.
+ */
+export function getPublicR2Url(key: string): string {
+  const base = (typeof process !== 'undefined' && process.env && (process.env.NEXT_PUBLIC_R2_PUBLIC_BASE as string)) || "";
+  if (!base) return key;
+  return `${base.replace(/\/+$/, "")}/${key.replace(/^\/+/, "")}`;
+}
+
+/**
  * Delete a file from R2 by its key.
  */
 export async function deleteFromR2(key: string): Promise<void> {

@@ -50,3 +50,34 @@ export function buildR2PublicUrl(possibleKeyOrUrl?: string | null): string {
   // Fallback: return the key (caller can decide to handle via signed URL if needed)
   return val;
 }
+
+// Alias convenience function matching other modules' expectations
+export function getPublicR2Url(key: string): string {
+  return buildR2PublicUrl(key);
+}
+
+// Optional placeholder upload; avoids import errors if referenced in client code.
+export async function uploadToR2(_file: File | Blob, _key: string): Promise<{ key: string }> {
+  throw new Error("uploadToR2 is not configured on this deployment.");
+}
+
+export function initialsFromName(name?: string) {
+  return (name || "")
+    .split(/\s+/)
+    .map((p) => p[0]?.toUpperCase() || "")
+    .join("")
+    .slice(0, 2);
+}
+
+export function displayName(name?: string, fallback: string = "Artist") {
+  const n = (name || "").trim();
+  return n.length ? n : fallback;
+}
+
+export function r2KeyForAvatar(artistId: string) {
+  return `avatars/${artistId}.png`;
+}
+
+export function r2KeyForImage(artistId: string, filename: string) {
+  return `artists/${artistId}/${filename}`;
+}
