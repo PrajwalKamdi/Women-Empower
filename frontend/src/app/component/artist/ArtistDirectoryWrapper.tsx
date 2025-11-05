@@ -2,7 +2,7 @@
 
 import { Suspense } from "react";
 import ArtistDirectoryContent from "./ArtistDirectoryContent";
-import { getArtistsPaginated, getCategoriesApi } from "@/app/lib/api";
+import { getArtistsPaginated, getCategoriesApi } from "../../lib/api";
 import { Artist } from "@/app/types/artist";
 
 async function ArtistDirectoryWrapper() {

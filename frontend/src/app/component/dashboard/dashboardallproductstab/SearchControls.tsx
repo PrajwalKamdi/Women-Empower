@@ -2,8 +2,8 @@
 'use client';
 import React, { useEffect, useState } from "react";
 import { Search, Filter, Plus } from "lucide-react";
-import { formatCategoryName } from "@/app/lib/utils/dashboardproduct-utils";
-import { getArtistsApi, getCategoriesApi } from "@/app/lib/api";
+import { formatCategoryName } from "../../../lib/utils/dashboardproduct-utils";
+import { getArtistsApi, getCategoriesApi } from "../../../lib/api";
 
 interface SearchControlsProps {
   searchTerm: string;

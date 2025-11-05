@@ -8,7 +8,7 @@ import { Product } from "@/app/types/product";
 import { useCart } from "../../contexts/CartContext";
 import { useAuth } from "../../contexts/AuthContext";
 import { useWishlist } from "../../contexts/WishlistContext";
-import { getCategoryDetailsApi, getArtistDetailsApi } from "@/app/lib/api";
+import { getCategoryDetailsApi, getArtistDetailsApi } from "../../lib/api";
 
 interface ProductDetailsPageProps {
   productId?: string;

@@ -3,8 +3,8 @@
 
 import { useState, useEffect } from 'react';
 import { Plus, Image } from 'lucide-react';
-import { Banner, BannerType, BANNER_TYPE_CONFIG } from  "@/app/types/dashboard-banner-tab";
-import { createBannerApi, updateBannerApi, deleteBannerApi } from '@/app/lib/bannerApi';
+import { Banner, BannerType, BANNER_TYPE_CONFIG } from  "../../../types/dashboard-banner-tab";
+import { createBannerApi, updateBannerApi, deleteBannerApi } from '../../../lib/bannerApi';
 import BannerTypeSelector from './BannerTypeSelector';
 import BannerGrid from './BannerGrid';
 import BannerModal from './BannerModal';

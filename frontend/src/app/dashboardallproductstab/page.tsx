@@ -1,18 +1,18 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Product } from "@/app/types/dashboardproduct";
+import { Product } from "../types/dashboardproduct";
 import { useProductManagement } from "../hooks/useProductManagement";
-import { useImageUpload } from "@/app/hooks/useImageUpload";
+import { useImageUpload } from "../hooks/useImageUpload";
 import {
   getUniqueArtists,
   filterProducts,
   getAllImages,
-} from "@/app/lib/utils/dashboardproduct-utils";
+} from "../lib/utils/dashboardproduct-utils";
 import { SearchControls } from "../component/dashboard/dashboardallproductstab/SearchControls";
 import { ProductGrid } from "../component/dashboard/dashboardallproductstab/ProductGrid";
 import { ProductDrawer } from "../component/dashboard/dashboardallproductstab/ProductDrawer";
-import { productService } from "@/app/lib/productapi";
-import { getArtistsApi, getCategoriesApi } from "@/app/lib/api";
+import { productService } from "../lib/productapi";
+import { getArtistsApi, getCategoriesApi } from "../lib/api";
 
 export default function ProductsPage() {
   const [products, setProducts] = useState<Product[]>([]);

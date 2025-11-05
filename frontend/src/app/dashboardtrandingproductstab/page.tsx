@@ -9,7 +9,7 @@ import { TrendingHeader } from "../component/dashboard/dashboardtrendingproducts
 import { TrendingProductGrid } from "../component/dashboard/dashboardtrendingproductstab/TrendingProductGrid";
 import { TrendingProductDrawer } from "../component/dashboard/dashboardtrendingproductstab/TrendingProductDrawer";
 import { productService } from "@/app/lib/productapi";
-import { getCategoriesApi } from "@/app/lib/api";
+import { getCategoriesApi } from "../lib/api";
 
 const INITIAL_PRODUCTS: TrendingProduct[] = [];
 

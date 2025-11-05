@@ -6,7 +6,7 @@ import R2Image from "../dashboard/dashboardallproductstab/R2Image";
 import { useRouter } from "next/navigation";
 import { Search, Filter, ChevronLeft, ChevronRight, Calendar, Briefcase } from "lucide-react";
 import { Artist } from "@/app/types/artist";
-import { getArtistsPaginated, searchArtistsApi, filterArtistsApi, getCategoriesApi } from "@/app/lib/api";
+import { getArtistsPaginated, searchArtistsApi, filterArtistsApi, getCategoriesApi } from "../../lib/api";
 
 // ============================================
 // TYPES

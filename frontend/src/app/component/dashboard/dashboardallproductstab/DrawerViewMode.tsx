@@ -3,7 +3,7 @@
 import React from "react";
 import { ChevronLeft, ChevronRight, Star, TrendingUp } from "lucide-react";
 import { Product } from "@/app/types/dashboardproduct";
-import { calculateDiscountedPrice, getAllImages } from "@/app/lib/utils/dashboardproduct-utils";
+import { calculateDiscountedPrice, getAllImages } from "../../../lib/utils/dashboardproduct-utils";
 import { DEFAULT_THUMBNAIL } from "../../../data/dashboardproductdata";
 import R2Image from "./R2Image";
 

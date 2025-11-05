@@ -3,8 +3,8 @@
 import React, { useEffect, useState } from "react";
 import { ImagePlus, X } from "lucide-react";
 import { ProductFormData } from "@/app/types/dashboardproduct";
-import { getArtistsApi, getCategoriesApi } from "@/app/lib/api";
-import { calculateDiscountedPrice, formatCategoryName } from "@/app/lib/utils/dashboardproduct-utils";
+import { getArtistsApi, getCategoriesApi } from "../../../lib/api";
+import { calculateDiscountedPrice, formatCategoryName } from "../../../lib/utils/dashboardproduct-utils";
 import R2Image from "./R2Image";
 
 interface DrawerFormModeProps {
